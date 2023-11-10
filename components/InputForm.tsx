@@ -5,14 +5,13 @@ import {
   StyleSheet,
   Text,
   TextInput,
-  View,
 } from "react-native";
 import React from "react";
 
 const InputForm = () => {
   return (
     <KeyboardAvoidingView
-      // behavior={Platform.OS === "ios" ? "padding" : "height"}
+      behavior={Platform.OS === "ios" ? "padding" : "height"}
       style={styles.addFormcontainer}
     >
       <TextInput
